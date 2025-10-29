@@ -1,0 +1,7 @@
+.product-card {
+    width: 250px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px solid darkblue; 
+    box-shadow: 0 5px 10px gray;
+}

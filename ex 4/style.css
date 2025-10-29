@@ -1,0 +1,23 @@
+.navbar {
+    background-color: darkgrey;
+    display: flex;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    color: lightblue;
+}
