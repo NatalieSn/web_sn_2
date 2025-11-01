@@ -1,11 +1,12 @@
 .navbar {
     background-color: darkgrey;
-    display: flex;
 }
 
 .navbar ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 li {
@@ -16,8 +17,10 @@ a {
     color: #fff;
     text-decoration: none;
     padding: 5px;
+    border-radius: 5px;
 }
 
 a:hover {
-    color: lightblue;
+    background-color:thistle;
+    color: purple;
 }
