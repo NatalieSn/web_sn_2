@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #e8e1f5;
+    color: #2d1b4e;
+    min-height: 100vh;
+    padding: 40px 20px;
+    line-height: 1.7;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="%23b8a3e0" stroke="%23fff" stroke-width="3"/><text x="16" y="21" font-size="20" text-anchor="middle" fill="white">?</text></svg>'), help;
+}
+
+p, h1, h2, .scroll-container {
+    cursor: auto;
+}
+
+h1, h2 {
+    color: #6c5ce7;
+    text-shadow: 0 3px 10px rgba(108, 92, 231, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.link, .btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 14px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    transition: all 0.35s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+a.link               { background: #b8a3e0; color: #fff; cursor: grab; }
+a.link.special       { background: #b8a3e0; color: #fff; cursor: help; }
+button.btn           { background: #b8a3e0; color: #fff; cursor: pointer; }
+button.btn.grab      { background: #b8a3e0; color: #fff; cursor: grab; }
+button.btn.grab:active { cursor: grabbing; }
+
+
+.scroll-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.75);
+    color: #2d1b4e;
+    padding: 35px;
+    border-radius: 24px;
+    max-height: 520px;
+    overflow-y: auto;
+    border: 3px solid #a29bfe;
+    box-shadow: 0 15px 35px rgba(162, 155, 254, 0.25);
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 14px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #e8e1f5;
+    border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #d7bdf5, #b8a3e0, #74b9ff, #0984e3);
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #c29dfe, #9c86e0, #55a8ff, #076cc7);
+}
+
+.scroll-container {
+    scrollbar-width: thin;
+    scrollbar-color: #74b9ff #e8e1f5;
+}
