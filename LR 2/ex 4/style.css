@@ -64,8 +64,8 @@ legend {
 .checkbox-group label::after {
     content: '';
     position: absolute;
-    left: 6px;
-    top: 8px;
+    left: 8px;
+    top: 5px;
     width: 8px;
     height: 14px;
     border: solid white;
@@ -98,8 +98,8 @@ legend {
 .radio-group label::after {
     content: '';
     position: absolute;
-    left: 6px;
-    top: 8px;
+    left: 8px;
+    top: 9px;
     width: 12px;
     height: 12px;
     background: #28a745;
