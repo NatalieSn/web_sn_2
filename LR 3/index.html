@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛР3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="greeting">
+        <h1 class="greeting__title">Привет, мир!</h1>
+        <button class="greeting__button">Изменить заголовок</button>
+    </section>
+
+    <section class="highlight-block">
+        <div class="highlight-block__text">Нажми меня!</div>
+        <button class="highlight-block__button">Переключить стиль</button>
+    </section>
+
+    <section class="todo-list">
+        <input type="text" id="inputField" class="todo-list__input" placeholder="Введите текст...">
+        <button id="addBtn" class="todo-list__button">Добавить пункт</button>
+
+        <ul id="list" class="todo-list__items"></ul>
+    </section>
+
+    <section class="count-block">
+        <div class="count-block__counter">Счетчик: 0</div>
+        <button class="count-block__button">Увеличить</button>
+    </section>
+
+    <section class="image-block">
+        <img src="images/1.png" alt="картинка" class="image-block__image">
+        <button class="image-block__button">Сменить изображение</button>
+    </section>
+
+    <section class="delete-block">
+        <h2 class="delete-block__title">Список дел перед Новым Годом:</h2>
+        <ul class="delete-block__list">
+            <li class="delete-block__item">🎄 Нарядить ёлку</li>
+            <li class="delete-block__item">🎅 Написать письмо Деду Морозу</li>
+            <li class="delete-block__item">🕯️ Купить бенгальские огни и хлопушки</li>
+            <li class="delete-block__item">🍊 Купить мандарины</li>
+            <li class="delete-block__item">⛄ Слепить снеговика</li>
+            <li class="delete-block__item">🎁 Подготовить подарки близким</li>
+        </ul>
+        <button class="delete-block__button">Удалить последний пункт</button>
+    </section>
+
+    <section class="form-block">
+        <h2 class="form-block__title">Зарегистрируйся на новгоднюю вечеринку🎄</h2>
+        <form action="" class="form-block__form">
+            <input type="text" id="username" name="username" placeholder="Ваше имя" class="form-block__input" >
+            <input type="email" id="email" name="email" placeholder="Ваша эл.почта" class="form-block__input" >
+            <button type="submit" class="form-block__button">Отправить</button>
+
+            <div id="form-message" class="form-block__message"></div>
+        </form>
+    </section>
+
+    <section class="toggle-block">
+        <div class="toggle-block__screen">Переключите видимость</div>
+        <button class="toggle-block__button">Переключить</button>
+    </section>
+
+    <section class="color-block">
+        <p class="color-block__text">Измени мой цвет!</p>
+        <select name="" id="color-select" class="color-block__select">
+            <option value="#B8A2F0">--Выберите--</option>
+            <option value="#D32F2F">Звёздочка на ёлке</option>
+            <option value="#006400">Хвоя волшебной ели</option>
+            <option value="#FFD700">Золотые колокольчики</option>
+            <option value="#C0C0C0">Снежное серебро</option>
+            <option value="#FFFFFF">Первый снег</option>
+            <option value="#8B0000">Плащ Деда Мороза</option>
+            <option value="#B9D5F6">Лёд на речке</option>
+        </select>
+    </section>
+
+    <section class="movies-block">
+        <h2 class="movies-block__title">Любимые новогодние фильмы и мультики</h2>
+    
+        <ul id="movies-list" class="movies-block__list">
+            <li class="movies-block__item">«Один дома»</li>
+            <li class="movies-block__item">«Ирония судьбы, или С лёгким паром!»</li>
+            <li class="movies-block__item">«Ёлки»</li>
+            <li class="movies-block__item">«Гринч — похититель Рождества»</li>
+        </ul>
+        <button class="movies-block__button">Добавить новогоднее кино</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
