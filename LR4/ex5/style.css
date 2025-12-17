@@ -1,29 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
-    font-family: Arial, sans-serif;
-    max-width: 500px;
-    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8f9fa;
+    font-family: system-ui, sans-serif;
     padding: 20px;
+}
+h2 {
+    margin-bottom: 24px;
+    color: #2d3748;
+    font-size: 1.5rem;
 }
 form {
     display: flex;
-    gap: 10px;
-    align-items: center;
     flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    max-width: 100%;
+    width: 320px;
 }
 input, select, button {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #fff;
+    color: #2d3748;
+}
+input {
+    flex: 1;
+    min-width: 100px;
 }
 button {
-    background-color: #4CAF50;
+    background: #4299e1;
     color: white;
     cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #3182ce;
 }
 .result {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #f8f9fa;
-    border-radius: 4px;
-    font-weight: bold;
+    margin-top: 24px;
+    padding: 12px 20px;
+    background: #e6fffa;
+    border: 1px solid #4fd1c5;
+    border-radius: 8px;
+    color: #00796b;
+    font-weight: 500;
+}
+.result[style*="red"] {
+    background: #ffebee;
+    border-color: #f56565;
+    color: #e53e3e;
 }

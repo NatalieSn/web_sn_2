@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    color: #000;
+    font-size: 1.1rem;
+}
+.output {
+    text-align: center;
+}
