@@ -28,7 +28,7 @@
     } else {
         foreach ($filtered as $product) {
             echo '<div class="product">';
-            echo "Товар: " . htmlspecialchars($product['name']) .
+            echo "Товар: " . $product['name'] .
                  ", Цена: " . $product['price'] . " ₽" .
                  ", В наличии: " . $product['stock'] . " шт.";
             echo '</div>';
